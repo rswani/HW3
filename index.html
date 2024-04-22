@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework 3</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <form id="movieForm">
+    <input type="text" id="title" placeholder="Title">
+    <input type="number" id="rating" min="1" max="5" placeholder="Rating (1-5)">
+    <input type="number" id="year" placeholder="Year">
+    <button type="button" onclick="addMovie()">Add Movie</button>
+  </form>
+  <button type="button" onclick="showMovies()">Show Movies</button>
+  <ul id="movieList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
